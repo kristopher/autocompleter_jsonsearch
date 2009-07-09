@@ -1,3 +1,0 @@
-[submodule "lib/jsonsearch"]
-	path = lib/jsonsearch
-	url = git://github.com/kristopher/JSONSearch.git
