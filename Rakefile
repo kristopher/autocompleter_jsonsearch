@@ -10,9 +10,9 @@ end
 
 desc "Build autocompleter_jsonsearch" 
 task :dist do
-  file = File.new(File.join(root_path, 'dist', 'autocompleter_jsonsearch.js'), 'w')
-  file.write(File.read(File.join(root_path, 'lib', 'json_search', 'src', 'json_search.js')))
-  file.write(File.read(File.join(root_path, 'src', "autocompleter_jsonsearch_#{version}.js")))
+  file = File.new(File.join(root_path, 'dist', "autocompleter_jsonsearch.#{version}.js"), 'w')
+  file.write(File.read(File.join(root_path, 'lib', 'json_search.0.9.0.js')))
+  file.write(File.read(File.join(root_path, 'src', "autocompleter_jsonsearch.js")))
   file.close
 end
 
