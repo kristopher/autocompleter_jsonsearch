@@ -43,8 +43,8 @@ h2. Search Options
 |case_sensitive|false|case sensitivity when autocompleting.|
 |limit|10|number of results to display.|
 |offset|0|amount to offset the results.|
-|fields|none|object containing the property names to search as the keys and the desired search method as there values.|
-|ranks|0|object containing the property names and there desired ranks.|
+|fields|none|object containing the property names to search as the keys and the desired search method as their values.|
+|ranks|0|object containing the property names and their desired ranks.|
 
 h2. Format Options
 
@@ -57,10 +57,27 @@ h2. Dependancies
 "Prototype":http://www.prototypejs.org/
 "Scriptaculous":http://script.aculo.us/
 
+h2. Building
+
+<pre>
+<code>
+rake dist
+</code>
+</pre>
+
+h2. Running The Specs
+
+<pre>
+<code>
+rake spec
+</code>
+</pre>
+
 h2. Todo
 
 Better Documentation
 Testing in something other than Firefox 3
+Demo
 
 h2. Homepage  
 
