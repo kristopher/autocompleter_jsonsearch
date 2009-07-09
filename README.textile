@@ -55,7 +55,6 @@ h2. Format Options
 h2. Dependancies
 
 "Prototype":http://www.prototypejs.org/
-
 "Scriptaculous":http://script.aculo.us/
 
 h2. Building
@@ -77,9 +76,7 @@ rake spec
 h2. Todo
 
 Better Documentation
-
 Testing in something other than Firefox 3
-
 Demo
 
 h2. Homepage  
