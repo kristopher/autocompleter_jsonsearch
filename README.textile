@@ -26,8 +26,17 @@ new Autocompleter.JSONSearch(id_of_text_field, id_of_div_to_populate, json_objec
   }
 })
 </code>
-</pre>  
-  
+</pre>    
+
+h2. Search Methods
+
+|_.Type|_.Description|
+|prefix|Matches from the beginning of the string.|
+|infix|Matches anywhere in the string.|
+|exact|Matches the whole string.|
+|word|Matches a whole word.|
+|word_prefix|Matches from the beginning of a word.|
+
 h2. Search Options
 
 |_.Option|_.Default Value|_.Description|
