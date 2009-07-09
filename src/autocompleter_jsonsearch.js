@@ -1,35 +1,3 @@
-/*
-  This is only meant to search an array of objects if you need to search a 
-  single level array of strings use Autocompleter.Local
-
-  Field matchers:
-    prefix: matches from the begining of the string
-    infix: matches anywhere in the string
-    exact: matches the whole string
-    word: matches a word in the string using word boundries
-
-  Autocompleter.JSONSearch('element', 'update_element', data, {
-    search_options: {
-      fields: {
-        name: 'prefix',
-        category: 'infix'
-      },
-      ranks: {
-        name: 1,
-        category: 0 // Default is 0
-      },
-      case_sensitive: false,
-      limit: 10,
-      offset: 0
-    },
-    format_options: {
-      order: ['name', 'category']
-        select: 'name'
-    }
-  })
-*/
-//TODO override the select option handler take an array
-//TODO add dependencies 
 Autocompleter.JSONSearch = Class.create(Autocompleter.Local, {
   
   patterns: {
@@ -167,4 +135,3 @@ Autocompleter.JSONSearch = Class.create(Autocompleter.Local, {
   }
   
 });
-
