@@ -14,6 +14,7 @@ task :dist do
   file.write(File.read(File.join(root_path, 'lib', 'json_search.0.9.0.js')))
   file.write(File.read(File.join(root_path, 'src', "autocompleter_jsonsearch.js")))
   file.close
+  puts "\nGenerated distribution: dist/autocompleter_jsonsearch.#{version}.js\n\n"
 end
 
 desc "Run the specs"
