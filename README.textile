@@ -1,0 +1,53 @@
+h1. Autocompleter JSONSearch
+
+Prototype Autocompleter.Local implementation using the JSONSearch library.
+
+h2. Example
+
+<pre>  
+<code>
+new Autocompleter.JSONSearch(id_of_text_field, id_of_div_to_populate, json_object, {
+  search_options: {
+    case_sensitive: false,
+    limit: 10,
+    offset: 0,
+    fields: {
+      name: 'prefix',
+      category: 'infix'
+    },
+    ranks: {
+      name: 1,
+      category: 0 // Default is 0
+    }
+  },
+  format_options: {
+    order: ['name', 'category'],
+    select: 'name'
+  }
+})
+</code>
+</pre>  
+  
+h2. Search Options
+
+|_.Option|_.Default Value|_.Description|
+|case_sensitive|false|case sensitivity when autocompleting.|
+|limit|10|number of results to display.|
+|offset|0|amount to offset the results.|
+|fields|none|object containing the property names to search as the keys and the desired search method as there values.|
+|ranks|0|object containing the property names and there desired ranks.|
+
+h2. Format Options
+
+|_.Option|_.Default Value|_.Description|
+|order|none|order that the results will be displayed.|
+|select|all of the results text|property that will be used to populate the input.|
+
+h2. Coming Soon
+
+Better Documentation
+Testing in something other than Firefox 3
+
+h2. Homepage  
+
+"http://github.com/kristopher/autocompleter_jsonsearch":http://github.com/kristopher/autocompleter_jsonsearch
