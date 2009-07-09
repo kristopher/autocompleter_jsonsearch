@@ -52,7 +52,7 @@ h2. Format Options
 |order|none|order that the results will be displayed.|
 |select|all of the results text|property that will be used to populate the input.|
 
-h2. Coming Soon
+h2. Todo
 
 Better Documentation
 Testing in something other than Firefox 3
