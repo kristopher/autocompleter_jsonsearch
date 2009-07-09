@@ -52,6 +52,11 @@ h2. Format Options
 |order|none|order that the results will be displayed.|
 |select|all of the results text|property that will be used to populate the input.|
 
+h2. Dependancies
+
+"Prototype":http://www.prototypejs.org/
+"Scriptaculous":http://script.aculo.us/
+
 h2. Todo
 
 Better Documentation
