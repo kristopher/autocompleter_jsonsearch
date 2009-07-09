@@ -126,7 +126,7 @@ Autocompleter.JSONSearch = Class.create(Autocompleter.Local, {
   },
   
   getRegex: function(token, pattern) {
-    return new RegExp(this.patterns[pattern].gsub(/\$token/, RegExp.escape(token)), this.json_search.case_sensitive);
+    return new RegExp(this.patterns[pattern].gsub(/\$token/, RegExp.escape(token)), this.json_search.getRegexOptions());
   },
   
   onClick: function($super, event) {
