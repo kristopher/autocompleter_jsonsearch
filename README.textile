@@ -1,6 +1,6 @@
 h1. Autocompleter JSONSearch
 
-Prototype Autocompleter.Local implementation using the JSONSearch library.
+Scriptaculous Autocompleter.Local implementation using the JSONSearch library.
 
 h2. Example
 
